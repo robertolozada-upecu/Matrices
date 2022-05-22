@@ -30,7 +30,7 @@ namespace Matrices
                     {
 						Console.Write(matriz[i, j]);
 						if (j < columnaMatriz - 1)
-							Console.Write(", ");
+							Console.Write("\t");
                     }
 					Console.WriteLine();
                 }
